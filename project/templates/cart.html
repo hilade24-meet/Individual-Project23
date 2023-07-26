@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+ <script type="text/javascript" src="./static/js/script.js"></script>
+     <link rel="stylesheet" href="static/css/style.css"/>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <button type="button" class="button bu" onclick="pathh('/signout')">logout</button>
+<button type="button" class="button bu" onclick="pathh('/product')">products</button>
+
+</head>
+<body style="background-color:#83c5be;">
+<h1 style="color: white;"> Your cart:)</h1>
+<div>
+   {% for i in pr %}
+       <div class="card" style="min-width: 150px;" > 
+            <h1 >{{pr[i]['Product']}}</h1>
+        </div>
+    {% endfor%}
+</div>
+
+
+<!--  <div class="card">
+    <br></br>
+  <img src="   https://i5.walmartimages.com/asr/1cf6e6e9-8317-4415-a318-38783304dab1_1.ed7e0e275738f7288e17596caca574b0.png
+" alt="" style="width:100%">
+  <h1 >pop dolls</h1>
+  <p class="price">$10.00</p> 
+<p> A super cool pop doll of Woodie</p>  -->
+
+</body>
+</html>

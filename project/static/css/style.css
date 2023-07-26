@@ -1,0 +1,47 @@
+
+.button {
+  background-color: powderblue; 
+  border: none;
+  color: blueviolet;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+  transition-duration: 0.4s;
+}
+
+.bu:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.card {
+  color: #f5ebe0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 150px;
+  min-width: 200px;
+  
+  text-align: center;
+  font-family: fantasy;
+  margin: 0px 10px 30px 20px; 
+  float: left;
+
+ 
+}
+
+
+
+.price {
+  color: grey;
+  font-size: 22px;
+
+}
+.txt{ 
+    color: turquoise;
+    font-family: fantasy;
+ }
+
+

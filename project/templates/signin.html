@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signin</title>
+</head>
+<body style="background-color: #588157;">
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #ccd5ae;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #d5bdaf;
+}
+
+.bu_si{ 
+
+  width: 100%;
+  background-color: #ccd5ae;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hs:hover {
+  background-color: #d5bdaf;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+
+
+    <form method='POST' action="/signin">
+        <!-- Heading -->
+        <h1 style="font-family: fantasy; color: #ccd5ae; " >Sign in to your account </h1>
+
+        <!-- Subheading -->
+        <h3 style="font-family: fantasy; color:#ccd5ae; " > Please fill up your information below to sign in.</h3>
+
+        <!-- Email -->
+        <div style="background-color: #f5ebe0">
+            <label>Email address*</label>
+            <div>
+                <input type="email"  name="email" id="emailStr" required>
+            </div>
+        </div>
+
+        <!-- Password -->
+        <div style="background-color: #f5ebe0">
+            <label>Password*</label>
+            <div class="input-group" >
+                <input type="password"  name="password" minlength="6">
+            </div>
+        </div>
+        <input type="submit"  value="Submit"/> 
+        </form>
+        <!-- Buttons -->
+            <a href="/signup" ><button class="bu_si hs">signup</button></a>
+
+            
+      
+    
+
+</body>
+</html>

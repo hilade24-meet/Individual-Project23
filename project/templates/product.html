@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <script type="text/javascript" src="./static/js/script.js"></script>   
+         <link rel="stylesheet" href="static/css/style.css"/>
+
+
+<title>Products</title>
+
+<button type="button" onclick="pathh('/cart')" class=" button bu">cart</button>
+<button type="button" class="button bu" onclick="pathh('/signout')">logout</button>
+</head>
+
+
+<body style="background-color: #83c5be;">
+<h1 style="color: #f5ebe0;">Hi! these are the products:</h1> 
+<br></br>   
+
+    <!-- woodie doll product -->
+ <div >
+<div class="card" > 
+  <img src="   https://i5.walmartimages.com/asr/1cf6e6e9-8317-4415-a318-38783304dab1_1.ed7e0e275738f7288e17596caca574b0.png
+" alt="" style="width:100%" >
+
+  <h1 >pop doll</h1>
+  <p class="price">$10.00</p>
+  <p> A super cool pop doll of Woodie</p>
+  <a href="{{url_for('toy')}}"><button type="button" class="button bu" >Add to Cart</button></a>
+</div>
+
+<!-- airforce product -->
+<div class="card" >
+<img src="https://www.pngall.com/wp-content/uploads/13/Nike-Shoes-Air-Max-PNG-Cutout.png" 
+alt="" style="width:100%  " "height: 150px;" >
+
+  <h1 >Airforce</h1>
+  <p class="price">$50.00</p>
+  <p> A very very good looking shoes!</p>
+  <a href="{{url_for('sh')}}"><button type="button" class="button bu" >Add to Cart</button></a>
+</div>
+</div>
+
+</body>
+</html>
+<!-- style="width: 150%; height: 150px; float: left; " -->
+<!--  -->
